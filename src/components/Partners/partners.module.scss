@@ -1,0 +1,77 @@
+.partners {
+  width: 100%;
+  /* height: 208.32px; */
+  margin-top: 6.45px;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    /* height: 100%; */
+    max-width: 1180px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    .netflixLogo {
+      margin-top: 74.155px;
+      margin-bottom: 74.155px;
+      margin-right: 2.09%;
+      flex: 0 1 17.91%;
+      width: 17.91%;
+    }
+
+    .redditLogo {
+      margin-top: 78.155px;
+      margin-bottom: 78.155px;
+      margin-left: 2.09%;
+      margin-right: 2.09%;
+      flex: 0 1 15.82%;
+      width: 15.82%;
+    }
+
+    .amazonLogo {
+      margin-top: 74.155px;
+      margin-bottom: 74.155px;
+      margin-left: 2.09%;
+      margin-right: 2.09%;
+      flex: 0 1 15.82%;
+      width: 15.82%;
+    }
+
+    .discordLogo {
+      margin-top: 74.155px;
+      margin-bottom: 74.155px;
+      margin-left: 2.09%;
+      margin-right: 2.09%;
+      flex: 0 1 15.82%;
+      width: 15.82%;
+    }
+
+    .spotifyLogo {
+      margin-top: 78.155px;
+      margin-bottom: 78.155px;
+      margin-left: 2.09%;
+      flex: 0 1 17.91%;
+      width: 17.91%;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .partners {
+    .container {
+      .netflixLogo,
+      .redditLogo,
+      .amazonLogo,
+      .discordLogo,
+      .spotifyLogo {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

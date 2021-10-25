@@ -1,0 +1,52 @@
+.statisticBlock {
+  flex: 0 1 33.3%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  .userIcon {
+    width: 55px;
+    height: 55px;
+    margin-top: 72.5px;
+    margin-bottom: 72.5px;
+  }
+  .infoContainer {
+    margin-left: 20%;
+
+    .title {
+      font-family: "Rubik700";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 30px;
+      color: #0b132a;
+    }
+    .info {
+      font-family: "Rubik400";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      color: #4f5665;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .statisticBlock {
+    width: 100%;
+    justify-content: space-between;
+
+    .userIcon {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .infoContainer {
+      .title {
+        text-align: right;
+      }
+      .info {
+        text-align: right;
+      }
+    }
+  }
+}

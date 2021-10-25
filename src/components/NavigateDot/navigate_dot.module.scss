@@ -1,0 +1,14 @@
+.navigateDot {
+  margin-right: 1.15%;
+  width: 15px;
+  height: 15px;
+  background: #dde0e4;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.1s;
+
+  &:hover {
+    border: 2px solid #f53838;
+  }
+}

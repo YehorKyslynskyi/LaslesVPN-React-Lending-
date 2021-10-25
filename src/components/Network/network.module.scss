@@ -1,0 +1,70 @@
+.network {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      width: 36.17%;
+      font-family: "Rubik500";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 50px;
+      text-align: center;
+      color: #0b132a;
+    }
+
+    .info {
+      margin-top: 20px;
+      text-align: center;
+      width: 52.36%;
+      font-family: "Rubik400";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      color: #4f5665;
+
+      span {
+        font-family: "Rubik500";
+      }
+    }
+
+    .image {
+      margin-top: 80px;
+      width: 92.98%;
+      height: inherit;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .network {
+    margin-top: 40px;
+    .container {
+      .title {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .info {
+        width: 100%;
+      }
+      .image {
+        width: 100%;
+        margin-top: 40px;
+      }
+    }
+  }
+}

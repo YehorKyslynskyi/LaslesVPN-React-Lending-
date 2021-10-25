@@ -1,0 +1,45 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+
+  li {
+    margin-left: 4.43%;
+    margin-right: 4.43%;
+
+    a {
+      text-decoration: none;
+      font-family: "Rubik400";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4f5665;
+      transition: 0.3s;
+
+      &:hover {
+        color: #f53838;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    li {
+      margin: 10px 0 10px 20px;
+      a {
+        font-family: "Rubik500";
+        font-size: 20px;
+        color: #ffffff;
+        &:hover {
+          color: #0b132a;
+        }
+      }
+    }
+  }
+}
